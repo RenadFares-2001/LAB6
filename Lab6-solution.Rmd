@@ -1,11 +1,11 @@
 ---
 title: "Lab 6 - La Quinta is Spanish for next to Denny's, Pt. 1"
 subtitle: "Visualizing spatial data"
-author: Musab Isah
+author: Renad Fares Al-Shammari
 output: pdf_document
 ---
 
-Student ID: 
+Student ID:2201003532 
 
 
 ```{r include = FALSE}
@@ -15,8 +15,9 @@ knitr::opts_chunk$set(eval = TRUE)
 Load the needed packages. Note: dsbox is not yet on CRAN. For now, you need to install it before you load the library. Uncomment, by deleting # from, the two lines of code below.
 
 ```{r message = FALSE}
-#install.packages("devtools")
-#devtools::install_github("rstudio-education/dsbox")
+install.packages("devtools")
+
+idevtools::install_github("rstudio-education/dsbox")
 ```
 
 Load the libraries here.
@@ -40,19 +41,19 @@ states <- read_csv("data/states.csv")
     
 ```{r}
 dim(dennys)
-#head(dennys)
+head(dennys)
 ```
 \textcolor{red}{The `dennys` dataset has 1,643 rows and 6 columns. Each row represents location information about a denny's restaurant.}
 
 
 2.  What are the dimensions of the La Quinta's dataset? 
-    What does each row in the dataset represent?
+    What does each row in the dataset represent?About location 
     What are the variables?
     
     
 ```{r}
 dim(laquinta)
-#head(laquinta)
+head(laquinta)
 ```
 \textcolor{red}{This dataset has 909 rows and 6 columns. Each row represents location information about laquinta's hotel.}
 
