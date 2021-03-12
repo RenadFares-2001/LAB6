@@ -48,7 +48,7 @@ head(dennys)
 
 2.  What are the dimensions of the La Quinta's dataset? 
     What does each row in the dataset represent?About location 
-    What are the variables?
+    What are the variables?Address and City and State and Zip..
     
     
 ```{r}
